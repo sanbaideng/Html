@@ -1,0 +1,11 @@
+//http://www.cnblogs.com/quzi/archive/2010/07/29/1788061.html<HTML>
+<HEAD>
+<TITLE>Pdf 签章控件展示 测试页</TITLE>
+</HEAD>
+<BODY style="overflow-x: hidden">
+
+<OBJECT ID="Seal" CLASSID="CLSID:27DD22AC-F026-49FB-8733-AABB4DA82B8C" width = 1400 height = 1024></OBJECT>
+
+
+</BODY>
+</HTML>
