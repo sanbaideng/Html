@@ -1,0 +1,40 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>test</title>
+	<script type="text/javascript">
+		function People(name)
+		{
+		  this.name=name;
+		  //对象方法
+		  this.Introduce=function(){
+		    alert("My name is "+this.name);
+		  }
+		}
+		//类方法
+		People.Run=function(){
+		  alert("I can run");
+		}
+		//原型方法
+		People.prototype.IntroduceChinese=function(){
+		  alert("我的名字是"+this.name);
+		} 
+
+		function calick(){
+			//alert(1);
+			var p1=new People("Windking");
+				//p1.Introduce();
+				//People.Run();
+				p1.IntroduceChinese(); 
+		}
+		function info(){
+      document.write("<p>UserAgent: ")//userAgent 浏览器信息
+      document.write(navigator.userAgent + "</p>")
+		  
+		}
+	</script>
+</head>
+<body>
+	<input id="test" name="test"  type="button" onclick="calick();" />
+</body>
+</html>
