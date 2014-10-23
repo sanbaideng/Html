@@ -26,6 +26,7 @@
 				//p1.Introduce();
 				//People.Run();
 				p1.IntroduceChinese(); 
+//首先var p=new People()；可以得出p.__proto__=People.prototype。那么当我们调用p1.IntroduceChinese()时，首先p1中没有IntroduceChinese这个属性，于是，他就需要到他的__proto__中去找，也就是People.IntroduceChinese，而我们在上面定义了People.prototype.IntroduceChinese=function(){}; 于是，就找到了这个方法。
 		}
 		function info(){
       document.write("<p>UserAgent: ")//userAgent 浏览器信息
